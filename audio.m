@@ -1,0 +1,5 @@
+fs=audioread("D:\computational lab\Conference.wav")
+x=audioread("D:\computational lab\Conference.wav")
+audiowrite("D:\computational lab\Conference.wav",x,fs)
+disp(size(x))
+disp(fs)
